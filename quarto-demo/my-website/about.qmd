@@ -1,0 +1,28 @@
+# About
+
+This is the **About** page of the Quarto tutorial.
+
+## About This Tutorial
+
+This tutorial demonstrates how to use Quarto for:
+
+- Writing scientific documents
+- Creating websites
+- Publishing reproducible research
+
+## About Quarto
+
+Quarto is a modern publishing system that supports:
+
+| Feature | Description |
+|---------|-------------|
+| Multi-language | Python, R, Julia, Observable |
+| Multiple formats | HTML, PDF, Word, ePub |
+| Reproducibility | Code execution + output |
+| Extensions | Citations, math, diagrams |
+
+## License
+
+This tutorial and demo website are licensed under the MIT License.
+
+[Go back to Home](index.qmd)

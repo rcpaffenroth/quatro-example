@@ -1,0 +1,58 @@
+# My First Quarto Document
+
+This demonstrates a basic Quarto document.
+
+```{python}
+print("Hello, Quarto!")
+```
+
+## Code Cells
+
+You can embed code cells from Python, R, Julia, or other languages.
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Simple scatter plot
+x = np.random.randn(100)
+y = x + np.random.randn(100)
+plt.scatter(x, y, alpha=0.5)
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.title("Sample Scatter Plot")
+plt.show()
+```
+
+## Features
+
+This document showcases:
+
+- Python code execution
+- Figure rendering
+- Pandoc markdown syntax
+- Cross-references
+
+![@fig-scatter](my-first-document.py:3-7)[@fig-scatter](python:5-18)[@fig-scatter](python:5-18)
+
+## Callouts
+
+::: .callout-note
+code-fold: true
+
+This is an important note!n:::
+
+::: .callout-tip
+
+Here is a useful tip!
+:::
+
+## What's Next?
+
+Try:
+
+- Editing this file
+- Rendering with `quarto render`
+- Publishing your document
+
+````

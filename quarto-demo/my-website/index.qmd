@@ -1,0 +1,66 @@
+# Welcome to My Quarto Website
+
+This is a simple **Quarto website** demonstrating Quarto capabilities.
+## Getting Started
+
+### What is Quarto?
+
+[Quarto](https://quarto.org) is a publishing system for creating scientific and technical content.
+
+- Author with Jupyter notebooks or plain markdown
+- Create dynamic content with Python, R, Julia, Observable
+- Publish to HTML, PDF, MS Word, ePub
+- Build websites, blogs, presentations, and books
+
+### Quick Start
+
+1. **Create a document:**
+
+   ```bash
+   quarto create project my-doc --type article
+   ```
+
+2. **Render:**
+
+   ```bash
+   quarto render
+   ```
+
+3. **Open the output:**
+
+   ```bash
+   open _quarto-site/index.html
+   ```
+
+## Features
+
+This website demonstrates:
+
+- **Navigation** - Navbar with links to pages
+- **Styling** - Custom theme (`flatly`)
+- **Tables of Contents** - Auto-generated TOC
+- **Code Execution** - Code chunks will render
+
+### Code Example
+
+```{python}
+import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3], [4, 6, 8], 'r-')
+plt.title('Sample Plot')
+plt.show()
+```
+
+::: {.callout-tip title="Tip"}
+You can customize the theme by changing the `theme` option.
+:::
+
+## Resources
+
+- [Quarto Docs](https://quarto.org/docs/guide/)
+- [Gallery](https://quarto.org/docs/gallery/)
+- [Community](https://github.com/quarto-dev/quarto-cli/discussions)
+
+---
+
+Made with [Quarto](https://quarto.org)✨

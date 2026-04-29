@@ -1,0 +1,14 @@
+project:
+  type: article
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    code-summary: Show code
+
+citation:
+  use-bibliography: true
